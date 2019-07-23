@@ -41,6 +41,8 @@ public class gameController : MonoBehaviour
                 SceneManager.LoadScene("Main");
             }
         }
+        if (Input.GetKey("escape"))
+            Application.Quit();
     }
    IEnumerator SpawnWaves()
     {
